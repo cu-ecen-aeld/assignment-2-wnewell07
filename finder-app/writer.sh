@@ -24,7 +24,6 @@ echo "$writestr" > "$writefile"
 
 if ! test -f $writefile; then
   echo "Failed to create $writefile"
-  
   exit 1
 fi
 
